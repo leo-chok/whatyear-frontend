@@ -3,5 +3,5 @@ fetch('https://whatyear-backend-ten.vercel.app/year')
 .then((data) => {
     console.log(data.now)
     const div = document.querySelector('#year');
-    div.textContent = data.now;
+    div.textContent = data.year;
 })
